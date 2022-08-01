@@ -1,0 +1,29 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+reff                                                                              0x0260       4
+keys                                                                              0x0264      22
+seg                                                                               0x027A      16
+temp                                                                              0x028A       4
+key_value                                                                         0x028E       4
+i                                                                                 0x0292       4
+inputcounter                                                                      0x0296       4
+ref                                                                               0x029A       4
+val                                                                               0x029E       4
+key_pressed                                                                       0x02A2       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+timer0_ovf_isr                                                                    0x00078     90
+display                                                                           0x000D2     20
+keypad                                                                            0x000E6    167
+main                                                                              0x0018D     33
